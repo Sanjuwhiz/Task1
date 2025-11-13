@@ -1,0 +1,40 @@
+# Nmap 7.98 scan initiated Thu Nov 13 18:51:55 2025 as: nmap -sS -oN local_scan.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.4
+Host is up (0.0062s latency).
+All 1000 scanned ports on 192.168.1.4 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: D2:F4:89:85:E8:CA (Unknown)
+
+Nmap scan report for 192.168.1.11
+Host is up (0.0052s latency).
+All 1000 scanned ports on 192.168.1.11 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 3E:9E:37:21:4F:7C (Unknown)
+
+Nmap scan report for 192.168.1.32
+Host is up (0.0055s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+3306/tcp open  mysql
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+MAC Address: 6A:46:EE:A2:B6:C5 (Unknown)
+
+Nmap scan report for 192.168.1.254
+Host is up (0.0060s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+MAC Address: D8:B0:20:EE:8C:F0 (Taicang T&W Electronics)
+
+Nmap scan report for 192.168.1.12
+Host is up (0.000042s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+# Nmap done at Thu Nov 13 18:52:07 2025 -- 256 IP addresses (5 hosts up) scanned in 11.59 seconds
